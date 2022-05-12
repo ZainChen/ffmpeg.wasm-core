@@ -2,10 +2,10 @@ name: Build FFmpeg.wasm (Single Thread)
 on:
   push:
     branches:
-      - n4.3.1-wasm
+      - zain-main
   pull_request:
     branches:
-      - n4.3.1-wasm
+      - zain-main
 
 env:
   FFMPEG_ST: yes
