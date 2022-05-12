@@ -2,10 +2,10 @@ name: Build FFmpeg.wasm
 on:
   push:
     branches:
-      - n4.3.1-wasm
+      - zain-main-x32
   pull_request:
     branches:
-      - n4.3.1-wasm
+      - zain-main-x32
 
 env:
   FFMPEG_ST: no
